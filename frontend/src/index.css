@@ -1,0 +1,30 @@
+:root {
+  --text: #212529;
+  --muted: #5c636a;
+  --bg: #f4f5f7;
+  --surface: #fff;
+  --border: #dee2e6;
+  --accent: #1c7ed6;
+  --danger-bg: #fff0f0;
+  --danger-text: #a61e1e;
+  --success-bg: #ebfbee;
+  --success-text: #1f6f33;
+
+  font: 15px/1.45 system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
